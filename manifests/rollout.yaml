@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/alexiaenache/ci_cd_lab:latest
+          image: ghcr.io/alexiaenache/ci_cd_lab:sha256:c1132aede74cc2001698024374029a3aeb80156c5c68a76ad55d2514fe6376e9
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
